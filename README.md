@@ -3,6 +3,7 @@ A beginner guide to the python api for openai.
 
 OpenAI is an amazing machine learning technology that can generate responses in the form of text, images, or code all from plain text descriptions, called the prompt. The plain text description can be as basic or hyperspecific as you like; with up to 1000 characters in the prompt. 
 
+
 ## Overveiw:
 
 This repo is meant to get you started with the basics of the openai python api. There are three main jupyter notebook tutorials:
@@ -10,6 +11,7 @@ This repo is meant to get you started with the basics of the openai python api. 
 1. GettingStarted--TextCompletion.ipynb
 2. GettingStarted--ImageGeneration.ipynb
 3. GettingStarted--CodeGeneration.ipynb
+
 
 
 The openai has three main use cases:
@@ -40,6 +42,7 @@ To set your key in python use `oai.api_key = <your_key>`
 
 
 
+
 ### TextCompletion
 
 This notebook reviews the basics of the python api for text completion.
@@ -49,11 +52,13 @@ This notebook reviews the basics of the python api for text completion.
 Ex: `response = oai.Completion.create(model="text-davinci-003", prompt=<text_prompt>)` where `<text_prompt>` is the plain text instructions for the AI.
 
 
+
 ### ImageCompletion
 
 This notebook reviews the bacis of the python api for image generation.
 
 `Image` is the class from `oai` that lets us generate images from a prompt with the method `create`.
+
 
 
 Ex: `image_resp = oai.Image.create(prompt=<image_prompt>)` where `<image_prompt>` is the plain text instructions for the AI.
