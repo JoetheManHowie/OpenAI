@@ -20,6 +20,7 @@ The openai has three main use cases:
 2. Generating images
 3. Generate code (any language)
 
+For a module with class versions of these notebooks [see the repo pyai](https://github.com/JoetheManHowie/pyai).
 
 ### Installation and Setup:
 
